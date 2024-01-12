@@ -39,19 +39,19 @@
 
 .App {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 10rem;
 }
 
 .image {
   position: relative;
   border: 2rem solid red;
-  width: 10vw;
+  width: 15vw;
   height: 50vh;
 }
 
 .active {
-  width: 20vw;
+  width: 30vw;
   height: 100vh;
 }
 
@@ -69,4 +69,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.pictures {
+  display: flex;
+  flex-direction: row;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
 }
