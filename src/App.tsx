@@ -6,8 +6,14 @@ import Picturethree from "./images/z0001062152vi2.jpg";
 import "./App.scss";
 
 const Pictureswitcher = (event:MouseEvent<HTMLImageElement>) => {
-  //document.documentElement.style.setProperty("--border-color", "green");
-  event.currentTarget.style.borderColor = "green";
+  if (event.currentTarget.style.borderColor === "red") {
+    event.currentTarget.style.borderColor = "green";
+    event.currentTarget.classList.add("active");
+  }
+   else {
+    event.currentTarget.style.borderColor = "red";
+    event.currentTarget.classList.remove("active");
+  }
 };
 
 function App() {

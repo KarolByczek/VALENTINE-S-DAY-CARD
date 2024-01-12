@@ -40,17 +40,33 @@
 .App {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 10rem;
 }
 
 .image {
   position: relative;
   border: 2rem solid red;
-  width: 28vw;
-  height: 88vh;
+  width: 10vw;
+  height: 50vh;
 }
 
 .active {
-  width: 40rem;
-  height: 122rem;
+  width: 20vw;
+  height: 100vh;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .active {
+    animation: active-spin infinite 20s linear;
+  }
+}
+
+@keyframes active-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
