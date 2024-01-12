@@ -19,14 +19,15 @@ const Pictureswitcher = (event:MouseEvent<HTMLImageElement>) => {
   }
 };
 
-const useInputHandler = (event:ChangeEvent<HTMLInputElement>) => {
-  const [store, setStore] = useState<string>("");
-
-  setStore(store.concat(event.currentTarget.value));
-
-};
 
 function App() {
+  
+  const [store, setStore] = useState<string>("");
+
+  const useInputHandler = (event:ChangeEvent<HTMLInputElement>) => {
+   setStore(event.currentTarget.value) 
+  }; 
+
   return (
     <div className="App">
       <div className="pictures">
@@ -50,8 +51,8 @@ function App() {
       />
       </div>
       <div className="inputs">
-        <ExampleForm type={"text"} onChange={useInputHandler} />
-        <ExampleForm type={"text"} onChange={useInputHandler} />
+        <ExampleForm type={"text"} onChange={useInputHandler} value={store}/>
+        <ExampleForm type={"text"} onChange={() => {}} value={store} />
       </div>
     </div>
   );
