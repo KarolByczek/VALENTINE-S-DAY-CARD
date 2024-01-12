@@ -1,15 +1,23 @@
+import { MouseEvent } from "react";
+
 interface PicturePack {
-    source: string,
-    alternate: string,
-    className: string
+  source: string;
+  alternate: string;
+  className: string;
+  onClick: (event:MouseEvent<HTMLImageElement>) => void;
 }
 
-export const Pictureswitcher = (props:PicturePack) => {
-    const {source, alternate, className} = props;
+export const Picture = (props: PicturePack) => {
+  const { source, alternate, className, onClick } = props;
 
-    return (
-        <div>
-            <img className={className} src={source} alt={alternate} />
-        </div>
-    )
-}
+  return (
+    <div>
+      <img
+        onClick={onClick}
+        className={className}
+        src={source}
+        alt={alternate}
+      />
+    </div>
+  );
+};
