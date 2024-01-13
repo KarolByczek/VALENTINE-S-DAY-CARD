@@ -48,11 +48,12 @@
   border: 2rem solid red;
   width: 15vw;
   height: 50vh;
+  margin: 5%;
 }
 
 .active {
-  width: 30vw;
-  height: 100vh;
+  width: 20vw;
+  height: 60vh;
 }
 
 
@@ -71,12 +72,19 @@
   }
 }
 
-.pictures {
+.images {
   display: flex;
   flex-direction: row;
+  gap: 12%;
 }
 
 .inputs {
   display: flex;
   flex-direction: row;
+}
+
+.list {
+  font-size: large;
+  font-weight: 700;
+  padding: 0;
 }

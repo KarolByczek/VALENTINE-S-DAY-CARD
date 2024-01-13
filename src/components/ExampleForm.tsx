@@ -1,6 +1,6 @@
 import { ChangeEvent } from "react";
 
-export interface InputType {
+interface InputType {
     type: string,
     onChange: (event:ChangeEvent<HTMLInputElement>) => void,
     value: string
