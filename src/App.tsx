@@ -43,19 +43,19 @@ function App() {
       <Picture
         className={"image"}
         source={Pictureone}
-        alternate={"photo one"}
+        alternate={"photo01"}
         onClick={Pictureswitcher}
       />
       <Picture
         className={"image"}
         source={Picturetwo}
-        alternate={"photo two"}
+        alternate={"photo02"}
         onClick={Pictureswitcher}
       />
       <Picture
         className={"image"}
         source={Picturethree}
-        alternate={"photo three"}
+        alternate={"photo03"}
         onClick={Pictureswitcher}
       />
       </div>
