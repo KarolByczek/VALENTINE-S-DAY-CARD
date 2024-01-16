@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/project_no_2_Karol_Byczek/static/css/main.5382e003.css",
-    "main.js": "/project_no_2_Karol_Byczek/static/js/main.6d415325.js",
+    "main.js": "/project_no_2_Karol_Byczek/static/js/main.6cb7f3f3.js",
     "static/js/787.1e94029d.chunk.js": "/project_no_2_Karol_Byczek/static/js/787.1e94029d.chunk.js",
     "static/media/IMG_20230401_222604.jpg": "/project_no_2_Karol_Byczek/static/media/IMG_20230401_222604.8972ef2b426eaa99f63e.jpg",
     "static/media/z0001062152vi2.jpg": "/project_no_2_Karol_Byczek/static/media/z0001062152vi2.ba4b9b808d50e7310a9f.jpg",
     "static/media/z0001062151q21.jpg": "/project_no_2_Karol_Byczek/static/media/z0001062151q21.3e4857eb864ae69111be.jpg",
     "index.html": "/project_no_2_Karol_Byczek/index.html",
     "main.5382e003.css.map": "/project_no_2_Karol_Byczek/static/css/main.5382e003.css.map",
-    "main.6d415325.js.map": "/project_no_2_Karol_Byczek/static/js/main.6d415325.js.map",
+    "main.6cb7f3f3.js.map": "/project_no_2_Karol_Byczek/static/js/main.6cb7f3f3.js.map",
     "787.1e94029d.chunk.js.map": "/project_no_2_Karol_Byczek/static/js/787.1e94029d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5382e003.css",
-    "static/js/main.6d415325.js"
+    "static/js/main.6cb7f3f3.js"
   ]
 }
