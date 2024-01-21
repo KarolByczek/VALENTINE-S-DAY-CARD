@@ -10,13 +10,19 @@ import "./App.scss";
 
 
 const Pictureswitcher = (event:MouseEvent<HTMLImageElement>) => {
-  if (event.currentTarget.style.borderColor === "red") {
-    event.currentTarget.style.borderColor = "green";
-    event.currentTarget.classList.add("active");
+  if (event.currentTarget.classList.contains('image')) {
+    const $images:NodeListOf<Element> = document.querySelectorAll('.image');
+    $images.forEach((image:Element) => {
+      image.classList.add('active');
+      image.classList.remove('image')
+    });
   }
    else {
-    event.currentTarget.style.borderColor = "red";
-    event.currentTarget.classList.remove("active");
+    const $images:NodeListOf<Element> = document.querySelectorAll('.active');
+    $images.forEach((image:Element) => {
+      image.classList.remove('active');
+      image.classList.add('image')
+    });
   }
 };
 
