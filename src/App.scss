@@ -52,8 +52,11 @@
 }
 
 .active {
-  width: 20vw;
-  height: 60vh;
+  position: relative;
+  border: 2rem solid green;
+  width: 15vw;
+  height: 50vh;
+  margin: 5%;
 }
 
 
