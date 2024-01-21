@@ -37,6 +37,7 @@ function App() {
    setStore(event.currentTarget.value) 
   }; 
 
+
   return (
     <div className="App">
       <div className="images">

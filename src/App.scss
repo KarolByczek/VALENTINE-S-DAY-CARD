@@ -59,7 +59,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .active {
-    animation: active-spin infinite 20s linear;
+    animation: active-spin infinite 12s linear;
   }
 }
 
@@ -87,4 +87,10 @@
   font-size: large;
   font-weight: 700;
   padding: 0;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
