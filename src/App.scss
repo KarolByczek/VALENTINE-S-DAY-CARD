@@ -52,7 +52,9 @@
 }
 
 .active {
-  position: absolute;
+  position: sticky;
+  top: 4rem;
+  left: 2rem;
   border: 2rem solid green;
   width: 15vw;
   height: 50vh;
