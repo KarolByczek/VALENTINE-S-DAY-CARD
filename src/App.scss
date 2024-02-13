@@ -53,9 +53,11 @@
   width: 5vw;
   height: auto;
   margin: 5%;
+  display: none;
 }
 
 .active {
+  display: flex;
   width: 7vw;
   height: auto;
 }
