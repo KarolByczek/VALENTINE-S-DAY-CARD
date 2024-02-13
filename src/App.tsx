@@ -7,7 +7,7 @@ import "./App.scss";
 
 
 const Pictureswitcher = (event:MouseEvent<HTMLImageElement>) => {
-  if (event.currentTarget.classList.contains('image')) {
+  if (event.currentTarget.classList.contains('Kasia_Kozak')) {
     const $images:NodeListOf<Element> = document.querySelectorAll('.image');
     $images.forEach((image:Element) => {
       image.classList.add('active');
@@ -47,7 +47,14 @@ function App() {
         className="Kasia_Kozak"
         source={Kasia}
         alternate="Kasia"
-        onClick={() => window.alert('Kliknij mnie! :)')}
+        onClick={Pictureswitcher}
+      />
+      <h3>KLIKNIJ KASIĘ ⬆</h3>
+      <Picture 
+        className="heart heart01"
+        source={Heart}
+        alternate="heart"
+        onClick={() => window.alert('WSZYSTKIEGO NAJLEPSZEGO Z OKAZJI WALENTYNEK!!!:)')}
       />
     </div>
   );

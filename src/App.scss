@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: rgb(213, 192, 166);
 }
 
 /*.App-logo {
@@ -41,27 +42,22 @@
   }
 }*/
 
-.App {
-  display: flex;
-  flex-direction: column;
-  gap: 10rem;
+.Kasia_Kozak {
+  border: 0.5rem dotted rgb(50, 50, 190);
+  height: 65vh;
+  border-radius: 3rem;
 }
 
-.image {
-  position: relative;
-  border: 2rem solid red;
-  width: 15vw;
-  height: 50vh;
+.heart {
+  position: absolute;
+  width: 5vw;
+  height: auto;
   margin: 5%;
 }
 
 .active {
-  position: relative;
-  border: 2rem solid green;
-  border-radius: 2rem;
-  width: 15vw;
-  height: 50vh;
-  margin: 5%;
+  width: 7vw;
+  height: auto;
 }
 
 
@@ -78,28 +74,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.images {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 12%;
-}
-
-.inputs {
-  display: flex;
-  flex-direction: row;
-}
-
-.list {
-  font-size: large;
-  font-weight: 700;
-  padding: 0;
-}
-
-.inputs {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
