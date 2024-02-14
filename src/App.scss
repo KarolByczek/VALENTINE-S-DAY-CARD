@@ -1,5 +1,6 @@
 .App {
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -8,9 +9,7 @@
 }
 
 .Kasia_Kozak {
-  left: 40vw;
-  top: 16vh;
-  border: 0.9rem solid rgba(229, 217, 39, 0.269);
+  border: 2vh solid rgba(229, 217, 39, 0.269);
   height: 65vh;
   border-radius: 3rem;
   cursor: pointer;
@@ -129,23 +128,33 @@
   height: 7rem;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 440px) {
   .sign {
     background-color: bisque;
   }
+
+  .App {
+    justify-content: start;
+    width: 100vw
+  }
+
+  .Kasia_Kozak {
+    margin-top: 8vh;
+  }
   
   .heart_container {
-    left: -40vw;
+    left: -50vw;
+    top: -67vh;
   }
 
   .heart01 {
     left: -1vw;
-    top: -6vh;
+    top: 5vh;
   }
   
   .heart02 {
     left: -1vw;
-    top: 10vh;
+    top: 15vh;
   }
   
   .heart03 {
@@ -155,69 +164,69 @@
   
   .heart04 {
     left: -1vw;
-    top: 43vh;
+    top: 40vh;
   }
   
   .heart05 {
     left: 9vw;
-    top: 58vh;
+    top: 50vh;
   }
   
   .heart06 {
-    left: 27vw;
+    left: 35vw;
     top: 58vh;
   }
   
   .heart07 {
-    left: 45vw;
-    top: 58vh;
+    left: 62vw;
+    top: 50vh;
   }
   
   .heart08 {
-    left: 57vw;
-    top: 45vh;
+    left: 74vw;
+    top: 40vh;
   }
   
   .heart09 {
-    left: 57vw;
+    left: 74vw;
     top: 27vh;
   }
   
   .heart10 {
-    left: 57vw;
-    top: 10vh;
+    left: 74vw;
+    top: 16vh;
   }
   
   .heart11 {
-    left: 57vw;
-    top: -6vh;
+    left: 74vw;
+    top: 5vh;
   }
   
   .heart12 {
-    left: 45vw;
-    top: -20vh;
+    left: 60vw;
+    top: -5vh;
   }
   
   .heart13 {
-    left: 27vw;
-    top: -20vh;
+    left: 35vw;
+    top: -10vh;
   }
   
   .heart14 {
     left: 9vw;
-    top: -20vh;
+    top: -5vh;
   }
 
   .sign_left {
     left: auto;
     right: auto;
-    bottom: -14vh;
+    bottom: 9vh;
   }
   
   .sign_right {
     left: auto;
     right: auto;
-    bottom: -25vh;
+    bottom: 3vh;
   }
 
 }
