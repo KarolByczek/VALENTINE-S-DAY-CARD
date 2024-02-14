@@ -1,34 +1,27 @@
-
 import { MouseEvent } from "react";
 import { Picture } from "./components/Pictureswitcher";
-import Kasia from './images/10.jpeg';
-import Heart from './images/Red-Heart-Love.png.png';
+import Kasia from "./images/10.jpeg";
+import Heart from "./images/Red-Heart-Love.png.png";
 import "./App.scss";
 
-
-const Pictureswitcher = (event:MouseEvent<HTMLImageElement>) => {
-  if (event.currentTarget.classList.contains('Kasia_Kozak')) {
-    const $hearts:NodeListOf<Element> = document.querySelectorAll('.heart');
-    const $clue: any = document.querySelector('#clue');
-    const $signs: any = document.querySelectorAll('.sign');
-    $hearts.forEach((image:Element) => {
-      image.classList.add('active');
-      image.classList.remove('heart');
-      
+const Pictureswitcher = (event: MouseEvent<HTMLImageElement>) => {
+  if (event.currentTarget.classList.contains("Kasia_Kozak")) {
+    const $hearts: NodeListOf<Element> = document.querySelectorAll(".heart");
+    const $clue: any = document.querySelector("#clue");
+    const $signs: any = document.querySelectorAll(".sign");
+    $hearts.forEach((image: Element) => {
+      image.classList.add("active");
+      image.classList.remove("heart");
     });
-    $signs.forEach((sign:HTMLElement) => {
-      sign.classList.add('sign_vis');
+    $signs.forEach((sign: HTMLElement) => {
+      sign.classList.add("sign_vis");
     });
-    $clue.style.display = 'none'
+    $clue.style.display = "none";
     //window.alert('WSZYSTKIEGO NAJLEPSZEGO Z OKAZJI WALENTYNEK!!!:)')
   }
 };
 
-
-
 function App() {
-  
-
   return (
     <div className="App">
       <Picture
@@ -40,90 +33,92 @@ function App() {
       <h3 id="clue">KLIKNIJ KASIĘ ⬆</h3>
       <h1 className="sign sign_left">WSZYSTKIEGO</h1>
       <h1 className="sign sign_right">NAJLEPSZEGO!!!</h1>
-      <Picture 
-        className="heart heart01"
-        source={Heart}
-        alternate="heart"
-        onClick={() => console.log('See ya later!')}
-      />
-      <Picture 
-        className="heart heart02"
-        source={Heart}
-        alternate="heart"
-        onClick={() => console.log('See ya later!')}
-      />
-      <Picture 
-        className="heart heart03"
-        source={Heart}
-        alternate="heart"
-        onClick={() => console.log('See ya later!')}
-      />
-      <Picture 
-        className="heart heart04"
-        source={Heart}
-        alternate="heart"
-        onClick={() => console.log('See ya later!')}
-      />
-      <Picture 
-        className="heart heart05"
-        source={Heart}
-        alternate="heart"
-        onClick={() => console.log('See ya later!')}
-      />
-      <Picture 
-        className="heart heart06"
-        source={Heart}
-        alternate="heart"
-        onClick={() => console.log('See ya later!')}
-      />
-      <Picture 
-        className="heart heart07"
-        source={Heart}
-        alternate="heart"
-        onClick={() => console.log('See ya later!')}
-      />
-      <Picture 
-        className="heart heart08"
-        source={Heart}
-        alternate="heart"
-        onClick={() => console.log('See ya later!')}
-      />
-      <Picture 
-        className="heart heart09"
-        source={Heart}
-        alternate="heart"
-        onClick={() => console.log('See ya later!')}
-      />
-      <Picture 
-        className="heart heart10"
-        source={Heart}
-        alternate="heart"
-        onClick={() => console.log('See ya later!')}
-      />
-      <Picture 
-        className="heart heart11"
-        source={Heart}
-        alternate="heart"
-        onClick={() => console.log('See ya later!')}
-      />
-      <Picture 
-        className="heart heart12"
-        source={Heart}
-        alternate="heart"
-        onClick={() => console.log('See ya later!')}
-      />
-      <Picture 
-        className="heart heart13"
-        source={Heart}
-        alternate="heart"
-        onClick={() => console.log('See ya later!')}
-      />
-      <Picture 
-        className="heart heart14"
-        source={Heart}
-        alternate="heart"
-        onClick={() => console.log('See ya later!')}
-      />
+      <div className="heart_container">
+        <Picture
+          className="heart heart01"
+          source={Heart}
+          alternate="heart"
+          onClick={() => console.log("See ya later!")}
+        />
+        <Picture
+          className="heart heart02"
+          source={Heart}
+          alternate="heart"
+          onClick={() => console.log("See ya later!")}
+        />
+        <Picture
+          className="heart heart03"
+          source={Heart}
+          alternate="heart"
+          onClick={() => console.log("See ya later!")}
+        />
+        <Picture
+          className="heart heart04"
+          source={Heart}
+          alternate="heart"
+          onClick={() => console.log("See ya later!")}
+        />
+        <Picture
+          className="heart heart05"
+          source={Heart}
+          alternate="heart"
+          onClick={() => console.log("See ya later!")}
+        />
+        <Picture
+          className="heart heart06"
+          source={Heart}
+          alternate="heart"
+          onClick={() => console.log("See ya later!")}
+        />
+        <Picture
+          className="heart heart07"
+          source={Heart}
+          alternate="heart"
+          onClick={() => console.log("See ya later!")}
+        />
+        <Picture
+          className="heart heart08"
+          source={Heart}
+          alternate="heart"
+          onClick={() => console.log("See ya later!")}
+        />
+        <Picture
+          className="heart heart09"
+          source={Heart}
+          alternate="heart"
+          onClick={() => console.log("See ya later!")}
+        />
+        <Picture
+          className="heart heart10"
+          source={Heart}
+          alternate="heart"
+          onClick={() => console.log("See ya later!")}
+        />
+        <Picture
+          className="heart heart11"
+          source={Heart}
+          alternate="heart"
+          onClick={() => console.log("See ya later!")}
+        />
+        <Picture
+          className="heart heart12"
+          source={Heart}
+          alternate="heart"
+          onClick={() => console.log("See ya later!")}
+        />
+        <Picture
+          className="heart heart13"
+          source={Heart}
+          alternate="heart"
+          onClick={() => console.log("See ya later!")}
+        />
+        <Picture
+          className="heart heart14"
+          source={Heart}
+          alternate="heart"
+          onClick={() => console.log("See ya later!")}
+        />
+      </div>
     </div>
   );
 }

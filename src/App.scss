@@ -16,15 +16,9 @@
   cursor: pointer;
 }
 
-h3 {
-  position: absolute;
-  bottom: 0rem;
-  left: 45vw;
-}
 
 .sign {
-  position: fixed;
-  top: 40vh;
+  position: absolute;
   visibility: 0;
   opacity: 0;
   color: rgb(174, 33, 99);
@@ -34,11 +28,11 @@ h3 {
 }
 
 .sign_left {
-  left: 6rem;
+  left: 4vw;
 }
 
 .sign_right {
-  left: 55rem;
+  left: 70vw;
 }
 
 .sign_vis {
@@ -46,87 +40,186 @@ h3 {
   opacity: 1;
 }
 
+.heart_container {
+  position: relative;
+  left: -17vw;
+  top: -65vh;
+}
+
 .heart {
+  position: absolute;
   width: 5vw;
   height: auto;
   display: none;
-  position: fixed;
 }
 
 .heart01 {
-  left: 27rem;
-  top: 5rem;
+  left: -1vw;
+  top: -6vh;
 }
 
 .heart02 {
-  left: 27rem;
-  top: 11rem;
+  left: -1vw;
+  top: 10vh;
 }
 
 .heart03 {
-  left: 27rem;
-  top: 17rem;
+  left: -1vw;
+  top: 27vh;
 }
 
 .heart04 {
-  left: 27rem;
-  top: 23rem;
+  left: -1vw;
+  top: 43vh;
 }
 
 .heart05 {
-  left: 31rem;
-  top: 27rem;
+  left: 4vw;
+  top: 60vh;
 }
 
 .heart06 {
-  left: 37rem;
-  top: 27rem;
+  left: 12vw;
+  top: 60vh;
 }
 
 .heart07 {
-  left: 43rem;
-  top: 27rem;
+  left: 20vw;
+  top: 60vh;
 }
 
 .heart08 {
-  left: 47rem;
-  top: 23rem;
+  left: 26vw;
+  top: 45vh;
 }
 
 .heart09 {
-  left: 47rem;
-  top: 17rem;
+  left: 26vw;
+  top: 27vh;
 }
 
 .heart10 {
-  left: 47rem;
-  top: 11rem;
+  left: 26vw;
+  top: 10vh;
 }
 
 .heart11 {
-  left: 47rem;
-  top: 5rem;
+  left: 26vw;
+  top: -6vh;
 }
 
 .heart12 {
-  left: 43rem;
-  top: 0.5rem;
+  left: 20vw;
+  top: -20vh;
 }
 
 .heart13 {
-  left: 37rem;
-  top: 0.5rem;
+  left: 12vw;
+  top: -20vh;
 }
 
 .heart14 {
-  left: 31rem;
-  top: 0.5rem;
+  left: 5vw;
+  top: -20vh;
 }
 
 .active {
   position: absolute;
   display:  flex;
   height: 7rem;
+}
+
+@media screen and (max-width: 580px) {
+  .sign {
+    background-color: bisque;
+  }
+  
+  .heart_container {
+    left: -40vw;
+  }
+
+  .heart01 {
+    left: -1vw;
+    top: -6vh;
+  }
+  
+  .heart02 {
+    left: -1vw;
+    top: 10vh;
+  }
+  
+  .heart03 {
+    left: -1vw;
+    top: 27vh;
+  }
+  
+  .heart04 {
+    left: -1vw;
+    top: 43vh;
+  }
+  
+  .heart05 {
+    left: 9vw;
+    top: 58vh;
+  }
+  
+  .heart06 {
+    left: 27vw;
+    top: 58vh;
+  }
+  
+  .heart07 {
+    left: 45vw;
+    top: 58vh;
+  }
+  
+  .heart08 {
+    left: 57vw;
+    top: 45vh;
+  }
+  
+  .heart09 {
+    left: 57vw;
+    top: 27vh;
+  }
+  
+  .heart10 {
+    left: 57vw;
+    top: 10vh;
+  }
+  
+  .heart11 {
+    left: 57vw;
+    top: -6vh;
+  }
+  
+  .heart12 {
+    left: 45vw;
+    top: -20vh;
+  }
+  
+  .heart13 {
+    left: 27vw;
+    top: -20vh;
+  }
+  
+  .heart14 {
+    left: 9vw;
+    top: -20vh;
+  }
+
+  .sign_left {
+    left: auto;
+    right: auto;
+    bottom: -14vh;
+  }
+  
+  .sign_right {
+    left: auto;
+    right: auto;
+    bottom: -25vh;
+  }
+
 }
 
 
