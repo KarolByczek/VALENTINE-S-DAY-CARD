@@ -1,18 +1,17 @@
 {
   "files": {
-    "main.css": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/static/css/main.5382e003.css",
-    "main.js": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/static/js/main.a5c9ffa2.js",
-    "static/js/787.1e94029d.chunk.js": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/static/js/787.1e94029d.chunk.js",
-    "static/media/IMG_20230401_222604.jpg": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/static/media/IMG_20230401_222604.8972ef2b426eaa99f63e.jpg",
-    "static/media/z0001062152vi2.jpg": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/static/media/z0001062152vi2.ba4b9b808d50e7310a9f.jpg",
-    "static/media/z0001062151q21.jpg": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/static/media/z0001062151q21.3e4857eb864ae69111be.jpg",
-    "index.html": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/index.html",
-    "main.5382e003.css.map": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/static/css/main.5382e003.css.map",
-    "main.a5c9ffa2.js.map": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/static/js/main.a5c9ffa2.js.map",
-    "787.1e94029d.chunk.js.map": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/static/js/787.1e94029d.chunk.js.map"
+    "main.css": "/https//KarolByczek.github.io/react-deploy/static/css/main.9ad97254.css",
+    "main.js": "/https//KarolByczek.github.io/react-deploy/static/js/main.5e920e5a.js",
+    "static/js/787.1e94029d.chunk.js": "/https//KarolByczek.github.io/react-deploy/static/js/787.1e94029d.chunk.js",
+    "static/media/Red-Heart-Love.png.png": "/https//KarolByczek.github.io/react-deploy/static/media/Red-Heart-Love.png.4ffe10b6652efba3635d.png",
+    "static/media/10.jpeg": "/https//KarolByczek.github.io/react-deploy/static/media/10.51f9c9bf75f8489d7835.jpeg",
+    "index.html": "/https//KarolByczek.github.io/react-deploy/index.html",
+    "main.9ad97254.css.map": "/https//KarolByczek.github.io/react-deploy/static/css/main.9ad97254.css.map",
+    "main.5e920e5a.js.map": "/https//KarolByczek.github.io/react-deploy/static/js/main.5e920e5a.js.map",
+    "787.1e94029d.chunk.js.map": "/https//KarolByczek.github.io/react-deploy/static/js/787.1e94029d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5382e003.css",
-    "static/js/main.a5c9ffa2.js"
+    "static/css/main.9ad97254.css",
+    "static/js/main.5e920e5a.js"
   ]
 }
