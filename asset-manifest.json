@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-deploy/static/css/main.9ad97254.css",
-    "main.js": "/react-deploy/static/js/main.2899eb69.js",
-    "static/js/787.1e94029d.chunk.js": "/react-deploy/static/js/787.1e94029d.chunk.js",
-    "static/media/Red-Heart-Love.png.png": "/react-deploy/static/media/Red-Heart-Love.png.4ffe10b6652efba3635d.png",
-    "static/media/10.jpeg": "/react-deploy/static/media/10.51f9c9bf75f8489d7835.jpeg",
-    "index.html": "/react-deploy/index.html",
-    "main.9ad97254.css.map": "/react-deploy/static/css/main.9ad97254.css.map",
-    "main.2899eb69.js.map": "/react-deploy/static/js/main.2899eb69.js.map",
-    "787.1e94029d.chunk.js.map": "/react-deploy/static/js/787.1e94029d.chunk.js.map"
+    "main.css": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/static/css/main.9ad97254.css",
+    "main.js": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/static/js/main.4aaaa296.js",
+    "static/js/787.1e94029d.chunk.js": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/static/js/787.1e94029d.chunk.js",
+    "static/media/Red-Heart-Love.png.png": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/static/media/Red-Heart-Love.png.4ffe10b6652efba3635d.png",
+    "static/media/10.jpeg": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/static/media/10.51f9c9bf75f8489d7835.jpeg",
+    "index.html": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/index.html",
+    "main.9ad97254.css.map": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/static/css/main.9ad97254.css.map",
+    "main.4aaaa296.js.map": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/static/js/main.4aaaa296.js.map",
+    "787.1e94029d.chunk.js.map": "/PROJECT_NO_2_MISCELLANEOUS_CONCEPTS/static/js/787.1e94029d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ad97254.css",
-    "static/js/main.2899eb69.js"
+    "static/js/main.4aaaa296.js"
   ]
 }
