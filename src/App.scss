@@ -7,59 +7,126 @@
   background-color: rgb(213, 192, 166);
 }
 
-/*.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-} 
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}*/
-
 .Kasia_Kozak {
-  border: 0.5rem dotted rgb(50, 50, 190);
+  left: 40vw;
+  top: 16vh;
+  border: 0.9rem solid rgba(229, 217, 39, 0.269);
   height: 65vh;
   border-radius: 3rem;
+  cursor: pointer;
+}
+
+h3 {
+  position: absolute;
+  bottom: 0rem;
+  left: 45vw;
+}
+
+.sign {
+  position: fixed;
+  top: 40vh;
+  visibility: 0;
+  opacity: 0;
+  color: rgb(174, 33, 99);
+  font-size: 3rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: all 0.8s;
+}
+
+.sign_left {
+  left: 6rem;
+}
+
+.sign_right {
+  left: 55rem;
+}
+
+.sign_vis {
+  visibility: 1;
+  opacity: 1;
 }
 
 .heart {
-  position: absolute;
   width: 5vw;
   height: auto;
-  margin: 5%;
   display: none;
+  position: fixed;
+}
+
+.heart01 {
+  left: 27rem;
+  top: 5rem;
+}
+
+.heart02 {
+  left: 27rem;
+  top: 11rem;
+}
+
+.heart03 {
+  left: 27rem;
+  top: 17rem;
+}
+
+.heart04 {
+  left: 27rem;
+  top: 23rem;
+}
+
+.heart05 {
+  left: 31rem;
+  top: 27rem;
+}
+
+.heart06 {
+  left: 37rem;
+  top: 27rem;
+}
+
+.heart07 {
+  left: 43rem;
+  top: 27rem;
+}
+
+.heart08 {
+  left: 47rem;
+  top: 23rem;
+}
+
+.heart09 {
+  left: 47rem;
+  top: 17rem;
+}
+
+.heart10 {
+  left: 47rem;
+  top: 11rem;
+}
+
+.heart11 {
+  left: 47rem;
+  top: 5rem;
+}
+
+.heart12 {
+  left: 43rem;
+  top: 0.5rem;
+}
+
+.heart13 {
+  left: 37rem;
+  top: 0.5rem;
+}
+
+.heart14 {
+  left: 31rem;
+  top: 0.5rem;
 }
 
 .active {
-  display: flex;
-  width: 7vw;
-  height: auto;
+  position: absolute;
+  display:  flex;
+  height: 7rem;
 }
 
 
