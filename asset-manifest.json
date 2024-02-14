@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/https//KarolByczek.github.io/react-deploy/static/css/main.9ad97254.css",
-    "main.js": "/https//KarolByczek.github.io/react-deploy/static/js/main.5e920e5a.js",
-    "static/js/787.1e94029d.chunk.js": "/https//KarolByczek.github.io/react-deploy/static/js/787.1e94029d.chunk.js",
-    "static/media/Red-Heart-Love.png.png": "/https//KarolByczek.github.io/react-deploy/static/media/Red-Heart-Love.png.4ffe10b6652efba3635d.png",
-    "static/media/10.jpeg": "/https//KarolByczek.github.io/react-deploy/static/media/10.51f9c9bf75f8489d7835.jpeg",
-    "index.html": "/https//KarolByczek.github.io/react-deploy/index.html",
-    "main.9ad97254.css.map": "/https//KarolByczek.github.io/react-deploy/static/css/main.9ad97254.css.map",
-    "main.5e920e5a.js.map": "/https//KarolByczek.github.io/react-deploy/static/js/main.5e920e5a.js.map",
-    "787.1e94029d.chunk.js.map": "/https//KarolByczek.github.io/react-deploy/static/js/787.1e94029d.chunk.js.map"
+    "main.css": "/react-deploy/static/css/main.9ad97254.css",
+    "main.js": "/react-deploy/static/js/main.2899eb69.js",
+    "static/js/787.1e94029d.chunk.js": "/react-deploy/static/js/787.1e94029d.chunk.js",
+    "static/media/Red-Heart-Love.png.png": "/react-deploy/static/media/Red-Heart-Love.png.4ffe10b6652efba3635d.png",
+    "static/media/10.jpeg": "/react-deploy/static/media/10.51f9c9bf75f8489d7835.jpeg",
+    "index.html": "/react-deploy/index.html",
+    "main.9ad97254.css.map": "/react-deploy/static/css/main.9ad97254.css.map",
+    "main.2899eb69.js.map": "/react-deploy/static/js/main.2899eb69.js.map",
+    "787.1e94029d.chunk.js.map": "/react-deploy/static/js/787.1e94029d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9ad97254.css",
-    "static/js/main.5e920e5a.js"
+    "static/js/main.2899eb69.js"
   ]
 }
