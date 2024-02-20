@@ -28,12 +28,10 @@
 
 .sign_left {
   left: 4vw;
-  width: 25vw;
 }
 
 .sign_right {
   left: 70vw;
-  width: 12rem;
 }
 
 .sign_vis {
@@ -130,7 +128,7 @@
   height: 7rem;
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 965px) {
   .sign {
     background-color: bisque;
   }
@@ -145,8 +143,7 @@
   }
   
   .heart_container {
-    left: -50vw;
-    top: -67vh;
+    display: none;
   }
 
   .heart01 {
@@ -220,15 +217,14 @@
   }
 
   .sign_left {
-    left: auto;
-    right: auto;
-    bottom: 9vh;
+    font-size: 2.5rem;
+    bottom: 1.5rem;
   }
   
   .sign_right {
-    left: auto;
-    right: auto;
-    bottom: 3vh;
+    font-size: 2.5rem;
+    bottom: 1.5rem;
+    left: 65vw;
   }
 
 }
