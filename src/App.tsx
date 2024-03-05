@@ -34,24 +34,8 @@ function App() {
       <h1 className="sign sign_left">WSZYSTKIEGO</h1>
       <h1 className="sign sign_right">NAJLEPSZEGO!!!</h1>
       <div className="heart_container">
-        <Picture
-          className="heart heart01"
-          source={Heart}
-          alternate="heart"
-          onClick={() => console.log("See ya later!")}
-        />
-        <Picture
-          className="heart heart02"
-          source={Heart}
-          alternate="heart"
-          onClick={() => console.log("See ya later!")}
-        />
-        <Picture
-          className="heart heart03"
-          source={Heart}
-          alternate="heart"
-          onClick={() => console.log("See ya later!")}
-        />
+        
+       
         <Picture
           className="heart heart04"
           source={Heart}
